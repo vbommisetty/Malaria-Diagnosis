@@ -47,14 +47,15 @@ This project requires the download of tje "Malaria Cell Images Dataset" from the
 
 This dataset includes around 25 thousand images of healthy and parasitized red blood cells.
 
-[Imgur](https://imgur.com/soadlCj)
+![Healthy Cell](https://imgur.com/soadlCj)
 
-[Imgur](https://imgur.com/VKrSApD)
+![Parasitized Cell](https://imgur.com/VKrSApD)
 
 ## Methods
 
 <a name="methods"/>
 
+The data was preprocessed before being used to train the model. First, all the images were turned into 150x150 pixel images, then each pixel getting 3 values from 0-1 based on the how much red, green, and blue was in each pixel.
 
 
 ## Results
